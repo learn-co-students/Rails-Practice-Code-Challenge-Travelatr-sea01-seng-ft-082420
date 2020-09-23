@@ -6,7 +6,7 @@
     <%= f.text_area :content %>
 
     <%= f.collection_select :blogger_id, @bloggers, :id, :name %>
-    <%= f.collection_check_boxes :destination_id, @destinations, :id, :name %>
+    <%= f.collection_check_boxes :destination_ids, @destinations, :id, :name %>
 
     
     <%= f.submit %>
